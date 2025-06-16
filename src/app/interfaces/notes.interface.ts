@@ -1,10 +1,11 @@
-export interface INotes {
-    title: string,
-    content: string,
-    category: "personal" | "work" | "study" | "other",
-    pinned: boolean,
-    tags: {
-        label: string,
-        color: string
+export  interface INotes{
+    title : string,
+    content : string,
+    category : "personal" | "Work" | "study" |
+    "other",
+    pinned : boolean,
+    tags : {
+        label : string,
+        color : string
     }
 }
