@@ -3,5 +3,5 @@
 yarn.lock
 package-lock.json
 .gitignore
-config.bat
+
 node_modules
